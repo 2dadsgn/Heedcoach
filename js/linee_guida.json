@@ -1,0 +1,12 @@
+"linee_guida":[
+  {"img":"url('../images/slider/LINEA 1.jpg')", "p":"prova", "titolo": "CONTROLLA IL PESO E MANTIENITI SEMPRE ATTIVO "}, 
+  {"img":"url('../images/slider/LINEA 2.jpg')", "p":"proova", "titolo": "PIU’ CEREALI, LEGUMI, ORTAGGI E FRUTTA"}, 
+  {"img":"url('../images/slider/LINEA 3.jpg')", "p":"Doe", "titolo": "GRASSI: SCEGLI LA QUALITA’ E LIMITA LA QUANTITA’"}, 
+  {"img":"url('../images/slider/LINEA 4.jpg')", "p":"Doe", "titolo": "ZUCCHERI, DOLCI E BEVANDE ZUCCHERATE NEI GIUSTI LIMITI"}, 
+  {"img":"url('../images/slider/LINEA 5.jpg')", "p":"Doe", "titolo": "BEVI OGNI GIORNO ACQUA IN ABBONDANZA"}, 
+  {"img":"url('../images/slider/LINEA 6.jpg')", "p":"Doe", "titolo": "IL SALE? MEGLIO POCO"}, 
+  {"img":"url('../images/slider/LINEA 7.jpg')", "p":"Doe", "titolo": "BEVANDE ALCOLICHE: SE SI, SOLO IN QUANTITA’ CONTROLLATA"}, 
+  {"img":"url('../images/slider/LINEA 8.jpg')", "p":"Doe", "titolo": "VARIA SPESSO LE TUE SCELTE A TAVOLA"}, 
+  {"img":"url('../images/slider/LINEA 9.jpg')", "p":"Doe", "titolo": "CONSIGLI SPECIALI PER PERSONE SPECIALI"}, 
+  {"img":"url('../images/slider/LINEA 10.jpg')", "p":"Doe", "titolo": "LA SICUREZZA DEI TUOI CIBI DIPENDE ANCHE DA TE"} 
+]
