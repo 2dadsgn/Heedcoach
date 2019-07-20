@@ -375,6 +375,7 @@ font-family: 'Oxygen', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 
 /*QUI CSS DEI TESTI E PARAGRAFI*/
+/*EFFETTO FIRMA DUEDA*/
 h9{
 	color:aquamarine;
 	font-weight: 100;
@@ -390,7 +391,6 @@ h9:hover{
 	transition-timing-function: ease-in-out;
 	bottom: 0.9em;
 	left: 40.0vw;
-	
 }
 	
 strong{
