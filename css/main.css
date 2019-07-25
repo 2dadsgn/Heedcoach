@@ -285,6 +285,13 @@
 	height: 8.5em;
 	
 }
+#mapid{
+	height: 180px;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 20;
+}
 /*-------------------------------------------------------------------*/
 
 /*----------------------PROPRIETA' EFFETTO CSSS-----------------------*/
@@ -932,6 +939,21 @@ p{
 	}
 	.metodo #inner-third p{
 		width: 100%;
+	}
+	.contatti-mob{	
+	height: 100vh;
+	background-image: url("../images/1x/sfondo_contatti-100.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: static;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 1;
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,.6), 0 2px 2px 0 rgba(0,0,0,.2);
+}
+	.inner-fifth-mob{
+		display: block;
 	}
 	
 }
