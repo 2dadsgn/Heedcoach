@@ -172,7 +172,8 @@
 	margin: auto;
 }
 #slid-c{
-	 margin: 0 0 0 0vw;
+	 margin: 0;
+	padding: 0;
 }
 
 
@@ -285,12 +286,10 @@
 	height: 8.5em;
 	
 }
-#mapid{
-	height: 180px;
-	position: fixed;
-	top:0;
-	left: 0;
-	z-index: 20;
+.mapid{
+	margin: auto;
+	align-content: center;
+	
 }
 /*-------------------------------------------------------------------*/
 
@@ -704,7 +703,7 @@ p{
 		padding: 2em 2em 0em 0.5em;	
 		position: static;
 		background-position: center;
-		height: 120vh;
+		height: 55em;
 	}	
 	.mobile-container-fluid{
 		height: 100vh;
@@ -909,27 +908,38 @@ p{
 		font-size: 3em;
 	}
 	.container-slider-metodo img{	
-		width: 100vw;
-		height: 35vh;	
-		margin-left:-7vw;
+		width: 100%;
+		height: 100%;			
 		transition-property:all;	
 		transition-duration: 1000ms;
 		transition-delay:0ms;
 		transition-timing-function:ease-in-out;
 	}
-	#freccia-sx{
-		position: absolute;
-		left: 0;
-		width: 50vw;
-		height: 35vh;
-		z-index: 10;
+	
+	.frecce{
+		position: relative;	
+		margin: auto;
+		top: -20em;
+		left: 0em;
+		width: 100%;
+		height: 20em;
+		z-index: 20;
+		
+	}
+	#freccia-sx{		
+		
+		z-index: 20;		
+		width: 50%;
+		height: 100%;
+		position: relative;
+		
 	}
 	#freccia-dx{
-		position: absolute;
-		right: 0;
-		width: 50vw;
-		height: 35vh;
-		z-index: 10;
+	    position: relative;
+		z-index: 20;		
+		width: 50%;
+		height: 100%;
+		
 	}
 	h4{
 		width: 100%;
@@ -941,19 +951,41 @@ p{
 		width: 100%;
 	}
 	.contatti-mob{	
-	height: 100vh;
-	background-image: url("../images/1x/sfondo_contatti-100.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: static;
-	overflow-y: auto;
-	overflow-x: hidden;
-	z-index: 1;
-	box-shadow: 0 6px 10px 0 rgba(0,0,0,.6), 0 2px 2px 0 rgba(0,0,0,.2);
-}
+		height: 100vh;
+		padding-top: 1em;
+		background-image: url("../images/1x/sfondo_contatti-100.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: static;
+		overflow-y: auto;
+		overflow-x: hidden;
+		z-index: 1;
+		box-shadow: 0 6px 10px 0 rgba(0,0,0,.6), 0 2px 2px 0 rgba(0,0,0,.2);
+	}
 	.inner-fifth-mob{
 		display: block;
+	}
+	.mapid{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.contatti-mob p{
+		padding: 1em;
+	}
+	.icone-loghi{
+		margin:1em 0 0 0;
+		padding-left: 5em;
+		align-content: center;
+		justify-content: center;
+		
+	}
+	.contatti-mob h5{
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		
 	}
 	
 }
