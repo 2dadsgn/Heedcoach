@@ -390,31 +390,31 @@ function is_selected_fifth(){
 //--------------FUNCTION PER SLIDER MAIN---------------------------
 function slider(){
 	setInterval("bkgrnd_5()",15000);
-	setInterval("bkgrnd_2()",25000);
-	setInterval("bkgrnd_3()",40000);
-	setInterval("bkgrnd_4()",55000);
-	setInterval("bkgrnd_1()",70000);	
+	setInterval("bkgrnd_2()",35000);
+	setInterval("bkgrnd_3()",55000);
+	setInterval("bkgrnd_4()",75000);
+	setInterval("bkgrnd_1()",95000);	
 }
 
 function bkgrnd_1(){
 	var	main=document.getElementById("main");
-	main.style.backgroundImage="url('images/slider/LINEA 9.jpg')";
+	main.style.backgroundImage="url('images/LINEA 9.jpg')";
 }
 function bkgrnd_2(){
 	var	main=document.getElementById("main");
-	main.style.backgroundImage="url('images/slider/LINEA 1.jpg')";
+	main.style.backgroundImage="url('images/LINEA 1.jpg')";
 }
 function bkgrnd_3(){
 	var	main=document.getElementById("main");
-	main.style.backgroundImage="url('images/slider/LINEA 2.jpg')";
+	main.style.backgroundImage="url('images/LINEA 2.jpg')";
 }
 function bkgrnd_4(){
 	var	main=document.getElementById("main");
-	main.style.backgroundImage="url('images/slider/LINEA 5.jpg')";
+	main.style.backgroundImage="url('images/LINEA 5.jpg')";
 }
 function bkgrnd_5(){
 	var	main=document.getElementById("main");
-	main.style.backgroundImage="url('images/slider/LINEA 4.jpg')";
+	main.style.backgroundImage="url('images/LINEA 4.jpg')";
 }
 
 
