@@ -399,6 +399,10 @@ h9:hover{
 	left: 40.0vw;
 }
 /*fine firma duedda*/
+
+.profilo .inner-sec .logo_titolo{
+	margin-left:-3vw;
+}
 	
 strong{
 	font-weight: 700;
