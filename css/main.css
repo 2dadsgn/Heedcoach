@@ -122,6 +122,7 @@
 }
 
 /*ID THIRD----------------------------------------------------*/
+
 .metodo{
 	height: 100vh;
 	background-image:url("../images/1x/sfondo_metodo-100.jpg");
@@ -571,7 +572,7 @@ p{
 	font-size: 1.15em;	
 	text-transform:none;
 	font-family: 'Oxygen', sans-serif;
-	color:black;
+	color:white;
 	letter-spacing: 0.05em;
 	font-weight: 100;
 	margin: 5vh 0 5vh 2vw;
@@ -716,7 +717,7 @@ p{
 		padding: 2em 2em 0em 0.5em;	
 		position: static;
 		background-position: center;
-		height: 55em;
+		height: 60em;
 	}	
 	.mobile-container-fluid{
 		height: 100vh;
@@ -920,6 +921,9 @@ p{
 		text-align: left;
 		font-size: 3em;
 	}
+	.metodo h4{
+	margin-left: 0vh;
+	}
 	.container-slider-metodo img{	
 		width: 100%;
 		height: 100%;			
@@ -1005,7 +1009,7 @@ p{
 }
 
 
-/*// Small devices (landscape phones, 576px and up)*/
+/*// Small devices (landscape phones, 576px and up) and 1366x768*/
 @media (min-width: 577px) { 
 	.cella-chiusa{
 		width: 3vw;
@@ -1044,9 +1048,60 @@ p{
 		margin-top:45vh;
 		
 	}
+	
+
+}
+@media(min-width: 1200px) and (max-width: 1366px) and (max-height: 650px) { 
+	.cella-chiusa{
+		width: 3vw;
+	}
+	.cella-aperta{
+		width: 85vw;
+	}	
+	.main-chiuso{
+		width: 5vw;
+	}
+	/*LOGO PICCOLO*/
+	#logo-piccolo{
+		background-image:url("../images/2x/logo_piccolo.png");
+		background-position: left;
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 4.5vw;
+		height: 5vh;	
+		position: fixed;
+		z-index: 3;
+		top: 47vh;
+		left: 0.3vw;
+		display: none;
+	}
+	/*LOGO GRANDE*/	
+	#logo{
+		background-image:url("../images/2x/logo@2x.png");
+		background-position: left;
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 45.15vw;
+		height: 15.4vh;	
+	}
+	.profilo  p, .metodo p, .servizi p, .contatti p{
+		font-size: 1em;
+		margin-top:45vh;
+		
+	}
+	#main{
+		padding: 3em;
+	}
+	#logo{
+		margin-left: 1em;
+	}
+	#cta-1{
+		left: 2em;
+	}
 
 
 }
+
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
@@ -1092,11 +1147,10 @@ p{
 	.main{	
 		padding: 3em 7em 5em 4.5em;		
 	}
-	
-	
 
 
 }
+
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
